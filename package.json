@@ -1,13 +1,13 @@
 {
-  "name": "BlockChain",
+  "name": "blockchain",
   "version": "1",
-  "description": "mi primera blockchain",
+  "description": "mi primera blockchain ",
   "main": "index.js",
-  "author": "Ana",
+  "author": "Joel",
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@babel/core": "^7.11.6",
+    "@babel/core": "^7.11.5",
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.5",
     "eslint": "^7.8.1",
@@ -17,13 +17,14 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "babel-node index.js",
+    "start": "babel-node service/index.js",
     "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "crypto-js": "^4.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "ws": "^7.3.1"
   },
   "jest": {
     "silent": true,
